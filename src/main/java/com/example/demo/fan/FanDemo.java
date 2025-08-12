@@ -1,4 +1,4 @@
-package intership.fan;
+package com.example.demo.fan;
 
 import java.util.ArrayList;
 import java.util.Scanner;

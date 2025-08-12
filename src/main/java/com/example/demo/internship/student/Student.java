@@ -1,4 +1,4 @@
-package intership.student;
+package com.example.demo.internship.student;
 
 public class Student {
 

@@ -1,4 +1,4 @@
-package intership.laptop;
+package com.example.demo.internship.laptop;
 
 public class LaptopTest {
     public static void main(String[] args) {

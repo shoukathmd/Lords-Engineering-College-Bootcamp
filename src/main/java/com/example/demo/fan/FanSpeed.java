@@ -1,4 +1,4 @@
-package intership.fan;
+package com.example.demo.fan;
 
 public enum FanSpeed {
         OFF, LOW, MEDIUM, HIGH;

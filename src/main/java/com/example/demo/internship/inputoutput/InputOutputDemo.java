@@ -1,6 +1,5 @@
-package intership.inputoutput;
+package com.example.demo.internship.inputoutput;
 
-import java.awt.*;
 import java.util.Scanner;
 
 public class InputOutputDemo {
