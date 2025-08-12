@@ -23,7 +23,7 @@ public class FanService {
             i++;
         }
     }
-    public void switchOn(int fanNumber) {
+    public void switchOn(Integer fanNumber) {
         Fan f1 = fanArrayList.get(fanNumber);
         if (f1.isSwitchedOn() == false) {
             System.out.println("Starting the fan");

@@ -15,8 +15,10 @@ public class FanController {
     public FanController(FanService fanService) {
         this.fanService = fanService;
     }
+
+
     @GetMapping("/fan/switchon/{fanNumber}")
-    public void switchOn(@PathVariable int fanNumber) {
+    public void switchOn(@PathVariable Integer fanNumber) {
         fanService.switchOn(fanNumber);
     }
 
