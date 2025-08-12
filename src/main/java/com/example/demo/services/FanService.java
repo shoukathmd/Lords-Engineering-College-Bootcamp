@@ -10,8 +10,6 @@ public class FanService {
     ArrayList<Fan> fanArrayList = new ArrayList<>();
     int overAllCount = 0;
     int countOfFansOn = 0;
-    Fan f1 = new Fan();
-
 
     public FanService() {
         int i = 1;
@@ -26,7 +24,7 @@ public class FanService {
     public void switchOn(Integer fanNumber) {
         Fan f1 = fanArrayList.get(fanNumber);
         if (f1.isSwitchedOn() == false) {
-            System.out.println("Starting the fan");
+            System.out.println("Starting the fan: " + fanNumber);
             f1.switchOnTheFan();
             overAllCount++;
             countOfFansOn++;
@@ -35,20 +33,26 @@ public class FanService {
         }
     }
 
-    public void switchOff() {
+    public void switchOff(Integer fanNumber) {
+        //Get the fan from warehouse
+        Fan f1 = fanArrayList.get(fanNumber);
+        // Switch off the fan
         f1.switchOfTheFan();
         System.out.println("Fan is switched");
         overAllCount++;
         countOfFansOn--;
     }
 
-    public void increase() {
+    public void increase(Integer fanNumbner) {
+        Fan f1 = fanArrayList.get(fanNumbner);
         f1.increaseSpeed();
         overAllCount++;
         System.out.println("Fan speed is: " + f1.getSpeed());
     }
 
-    public void decrease() {
+    public void decrease(Integer fanNumber) {
+        //Get the fan from warehouse
+        Fan f1 = fanArrayList.get(fanNumber);
         f1.decreaseSpeed();
         overAllCount++;
         System.out.println("Fan speed is: " + f1.getSpeed());
