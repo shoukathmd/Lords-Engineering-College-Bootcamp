@@ -22,15 +22,15 @@ public class FanController {
         fanService.switchOn(fanNumber);
     }
     @GetMapping("/fan/switchoff/{fanNumber}")
-    public void switchOff(Integer fanNumber) {
+    public void switchOff(@PathVariable Integer fanNumber) {
         fanService.switchOff(fanNumber);
     }
     @GetMapping("/fan/increase/{fanNumber}")
-    public void increase(Integer fanNumber) {
+    public void increase(@PathVariable Integer fanNumber) {
         fanService.increase(fanNumber);
     }
     @GetMapping("/fan/decrease/{fanNumber}")
-    public void decrease(Integer fanNumber) {
+    public void decrease(@PathVariable Integer fanNumber) {
         fanService.decrease(fanNumber);
     }
 
