@@ -1,10 +1,12 @@
 package com.example.demo.services;
 
 import com.example.demo.studentprofile.StudentProfile;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
+@Service
 public class StudentProfileService {
    // ArrayList<StudentProfile> studentProfileArrayList = new ArrayList<>();
     HashMap<Long, StudentProfile> map = new HashMap<>();
