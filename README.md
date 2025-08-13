@@ -45,4 +45,11 @@ Topics covered in Bootcamp.
     4) delete (To delete any existing data from server).
 22) Standard Package Structure for API base application
     1) controller
-    2) services 
+    2) services
+23) Annotations
+    1) @RestController
+    2) @Service
+    3) @GetMapping
+    4) @Autowired (Constructor) Constructor Injection
+
+24) Using postman tested "Get" endpoints in FanController
