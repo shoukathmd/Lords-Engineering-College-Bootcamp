@@ -66,7 +66,7 @@ Topics covered in Bootcamp.
              map.remove
 28) Virtual Machines
 
-    Assignment Details
+# Assignment Details
     1) Create git repo with your rollnumber and name e.g 1234-abdurraheem
     2) Spring initalizr
     3) package names
@@ -80,7 +80,7 @@ Topics covered in Bootcamp.
    6)Image folder should contain min 4 images one for each operation
 
 
-     # Challege Details
+   # Challege Details
      Similar to StudentProfile you need create a class for Task
 
      Task class will have these attributes
