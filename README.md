@@ -53,3 +53,15 @@ Topics covered in Bootcamp.
     4) @Autowired (Constructor) Constructor Injection
 
 24) Using postman tested "Get" endpoints in FanController
+25) CRUD operation (Get, Put, Post, Delete)
+26) Map
+27) Comparing Map with ArrayList
+    1) Time complexity
+          1) Arraylist Getbyindex O(1) searching in arraylist O(n) upate by index is O(1) delete by index O(n)
+          2) Map all the operation time complexity is o(1)
+          3) Map stores in Key Value format
+             Hashmap<Key, Value> map = new Hashmap<>();
+             map.put
+             map.get
+             map.remove
+28) Virtual Machines
