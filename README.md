@@ -72,7 +72,7 @@ Topics covered in Bootcamp.
     3) package names
        1) controller
        2) services
-       3) models
+       3) models (POJO) Enum and Task class will go into it.
        4) images
    4) Submission date 18th Aug 2025
    5) README.md file should contain instructions to run the project.
