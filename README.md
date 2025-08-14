@@ -65,3 +65,30 @@ Topics covered in Bootcamp.
              map.get
              map.remove
 28) Virtual Machines
+
+    Assignment Details
+    1) Create git repo with your rollnumber and name e.g 1234-abdurraheem
+    2) Spring initalizr
+    3) package names
+       1) controller
+       2) services
+       3) models
+       4) images
+   4) Submission date 18th Aug 2025
+   5) README.md file should contain instructions to run the project.
+      and json sample to for post request
+   6)Image folder should contain min 4 images one for each operation
+
+
+     # Challege Details
+     Similar to StudentProfile you need create a class for Task
+
+     Task class will have these attributes
+     id, title, description, status
+     status enum TODO, IN_PROGRESS, COMPLETED, BLOCKED
+
+     Controller operations
+     get, put, post and delete.
+
+     # Good to have
+     Get operation get all the tasks created in the api's
